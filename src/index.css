@@ -1,12 +1,18 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
+  height: 900px;
+  background-image: linear-gradient(to right, rgba(3, 18, 181, 0.4), rgba(223, 98, 98, 0.475)), url("https://cineuropa.org/imgCache/2016/08/02/1470132433298_0620x0413_0x18x1000x666_1679382864540.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1300px 1000px; 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: aliceblue;
 }
 
 code {
